@@ -1,6 +1,7 @@
 import 'package:e_coomerceceapp/Headerpart.dart';
 import 'package:e_coomerceceapp/HeroSection.dart';
 import 'package:e_coomerceceapp/MainHerosection.dart';
+import 'package:e_coomerceceapp/components/hero_combinestack.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -192,7 +193,7 @@ class _HomePageState extends State<HomePage> {
            
           ),
            Headerpart(),
-           Herosection(),
+           HeroStackCombine(),
            MainHeroSection(),
         ],
         
